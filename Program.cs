@@ -10,21 +10,8 @@ namespace List
     {
         static void Main(string[] args)
         {
-            /*var names = new List<string> { "Killer Queen", "Ana", "Felipe" };
 
-            var index = names.IndexOf("Killer Queen");
-            if (index != -1)
-                Console.WriteLine($"The name {names[index]} is at index {index}");
-            var notFound = names.IndexOf("Not Found");
-            Console.WriteLine($"When an item is not found, IndexOf returns {notFound}");
-            names.Sort();
-            foreach(var name in names)
-            {
-                Console.WriteLine($"Hello {name.ToUpper()}!");
-
-            }*/
-
-            var fibonacciNumbers = new List<int> { 1, 1 };
+           var fibonacciNumbers = new List<int> { 1, 1 };
 
            while(fibonacciNumbers.Count<20)
             {
